@@ -1,3 +1,19 @@
 {
-    "users": []
+    "users": [
+        {
+            "name": "Naman",
+            "username": "naman10",
+            "pwd": "naman1"
+        },
+        {
+            "name": "hello",
+            "username": "hello",
+            "pwd": "hello1"
+        },
+        {
+            "name": "Naman",
+            "username": "yuvi20",
+            "pwd": "678945"
+        }
+    ]
 }
