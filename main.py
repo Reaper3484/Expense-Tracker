@@ -1,5 +1,5 @@
-import os
-import json
+from registration import register
+
 
 def display_menu():
     print('1: Show Budget')
@@ -14,16 +14,16 @@ def display_menu():
     print("10: Recurring Expense")
     print("11: Filter")
     print("12: User Profile and authentication")
-    print("Quit")
+    print("q: Quit")
 
 
-
-# Take Input
 def take_user_input():
-    pass
+    user_input = input().lower()
+    return user_input
+
 
 running = True
-
 while running:
     display_menu()
-    take_user_input()
+    if take_user_input() == 'q':
+        running = False
