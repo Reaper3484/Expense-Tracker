@@ -1,6 +1,16 @@
 import json
 import os
 
+def is_empty(obj):
+    empty=False
+    if obj=='':
+        empty=True
+    return empty
+
+def pass_length(password):
+    if len(password)!=6:
+        return False
+    
 
 def is_empty(obj):
     empty=False
