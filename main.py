@@ -1,18 +1,21 @@
 import os
+import json
 
 def display_menu():
     print('1: Show Budget')
-    print('2: Quit')
-    print("3: Show Budget")
-    print("4: Allocate Budget")
-    print("5: Add Expense")
-    print("6: Settings")
-    print("7: Show report")
-    print("8: Add Income Source")
-    print("Recurring Expense")
-    print("Filter")
-    print("User Profile and authentication")
+    print('2: Register New User')
+    print('3: Login')
+    print("4: Show Budget")
+    print("5: Allocate Budget")
+    print("6: Add Expense")
+    print("7: Settings")
+    print("8: Show report")
+    print("9: Add Income Source")
+    print("10: Recurring Expense")
+    print("11: Filter")
+    print("12: User Profile and authentication")
     print("Quit")
+
 
 
 # Take Input
