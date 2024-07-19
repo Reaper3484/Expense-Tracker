@@ -1,8 +1,9 @@
 import json
 import os
+from user_profile import User
 
 def clear():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls')
 
 def is_empty(obj):
     return obj == ''
@@ -11,8 +12,7 @@ def pass_length(password):
     return len(password) == 6
 
 def register():
-    
-    with open('Data.json', 'r') as Data:
+    with open('user_profile.json', 'r') as Data:
         user = json.load(Data)
     
     name = ''
@@ -67,13 +67,13 @@ def register():
             break
     
     if VALID:
-        user['users'].append({
-            'name': name,
-            'username': username,
-            'pwd': pwd
-        })
+        user1 = User(name,username,pwd)
+        user['users'].append(
+            
+            user1.__dict__
+            )
     
-    with open('Data.json', 'w') as Data:
+    with open('user_profile.json', 'w') as Data:
         json.dump(user, Data, indent=4)
     
     print("Registration Successful!")

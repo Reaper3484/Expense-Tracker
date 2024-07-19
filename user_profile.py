@@ -1,4 +1,7 @@
-class User:
+import json
+
+
+class User: 
     def __init__(self,name,username,pwd):
         self.name = name
         self.username = username
@@ -12,4 +15,6 @@ class User:
         if old==self.pwd:
             new_pwd = input("Enter New Password : ")
             self.pwd = new_pwd
-        
+
+
+    
