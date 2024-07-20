@@ -9,6 +9,7 @@ class User:
         
         self.expenses=[]
         self.budget=0
+        self.money_spent=0
         
     def change_pass(self):
         old = input("Enter Old Password : ")
