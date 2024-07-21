@@ -1,26 +1,12 @@
 {
     "users": [
         {
-            "name": "Naman",
-            "username": "naman30",
-            "pwd": "123456",
-            "expenses": [],
-            "budget": 2000,
-            "money_spent": 0
-        },
-        {
             "name": "Arnav",
             "username": "arnav10",
             "pwd": "123456",
-            "details": [
-                {
-                    "amount": 2000,
-                    "date": 76871,
-                    "time": 231
-                }
-            ],
+            "details": [],
             "budget": 10000,
-            "money_spent": 2500
+            "money_spent": 3000
         }
     ]
 }
