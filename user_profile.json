@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "name": "Arnav",
+            "username": "arnav10",
+            "pwd": "123456",
+            "details": [],
+            "budget": 10000,
+            "money_spent": 3000
+        }
+    ]
+}
