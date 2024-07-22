@@ -1,3 +1,6 @@
+import display_windows as d
+
+
 class AppState():
     MAIN_MENU = 0
     REGISTERATION = 1
@@ -21,3 +24,10 @@ class StateManager():
 
     def get_state(self):
         return self.state
+
+    def display_current_window(self):
+        match self.state:
+            case AppState.MAIN_MENU:
+                d.display_menu()
+            case _:
+                print('Miscallaneous window')

@@ -1,0 +1,1 @@
+ger.display_current_wi
