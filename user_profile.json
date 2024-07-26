@@ -4,9 +4,22 @@
             "name": "Arnav",
             "username": "arnav10",
             "pwd": "123456",
-            "details": [],
+            "details": [
+                {
+                    "amount": 1000,
+                    "date": "2024-07-22",
+                    "time": "22:01:36",
+                    "category": "food"
+                },
+                {
+                    "amount": 200,
+                    "date": "2024-07-22",
+                    "time": "22:01:57",
+                    "category": "clothing"
+                }
+            ],
             "budget": 10000,
-            "money_spent": 3000
+            "money_spent": 1200
         }
     ]
 }
